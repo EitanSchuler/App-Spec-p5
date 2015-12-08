@@ -52,7 +52,7 @@ show list of cities
 
 Options:
 
-    --country -c   country name
+    --country -c   country name(s)
 
 
 =head3 weather countries
@@ -64,14 +64,14 @@ show list of countries
 
 =head3 weather show
 
-    myapp weather show <country> <city>
+    myapp weather show <country> <city>+
 
 Show Weather forecast
 
 Parameters:
 
-    country  * Specify country
-    city     * Specify city   
+    country  * Specify country       
+    city     * Specify city or cities
 
 =head3  help
 

@@ -122,7 +122,7 @@ sub subcommand_pod {
             for my $param (@$parameters) {
                 my $name = $param->name;
                 my $required = $param->required;
-                $usage .= $required ? " <$name>" : " [<$name>]";
+                $usage .= " " . $param->to_usage_header;
             }
         }
         if (length $param_string) {
